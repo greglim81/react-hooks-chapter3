@@ -1,11 +1,17 @@
 import React from 'react';
-import Products from './Products';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import Rating from './Rating';
 
 function App() {
 
   return (
     <div>
-        <Products />
+        <Rating rating='1' />
+        <Rating rating='2' />
+        <Rating rating='3' />
+        <Rating rating='4' />
+        <Rating rating='5' />
     </div>
   );
 }
